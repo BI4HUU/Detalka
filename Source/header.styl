@@ -1,0 +1,208 @@
+.header
+	// background: rgba(250, 240,250 .5)
+	// background: #000
+	// font-family 'PT Sans'
+	// &_search
+	// 	padding: 5px
+	// 	margin 10px
+	// 	font-size 18px
+	// 	border 0
+	// 	border-bottom  3px solid rgba(20, 20,20 .4)
+	// 	background: rgba(250, 245,220 .3)
+	// 	outline none
+	.row
+		height: 100%
+		padding: 0 15px
+
+.contact_addres
+	margin 0
+
+.logo
+	display: block
+
+.tel
+	display block
+	font-size 22px
+	// font-family: fregat
+	text-decoration: none
+	color: #000000
+	text-align: right
+
+.car, .body
+	margin-top: 0
+	// padding-top: 18px
+	// padding-bottom: 18px
+
+.body
+	background: #999
+	background: #fff
+h2
+	font-weight 500
+.car
+	@media (min-width: 768px)
+		font-size 18px
+		border-right: 20px solid transparent
+	@media (min-width: 888px)
+		font-size 19px
+	@media (min-width: 992px)
+		font-size 20px
+	@media (min-width: 1200px)
+		font-size 19px
+	@media (min-width: 1300px)
+		font-size 21px
+	box-sizing: border-box
+	background: #999
+	background: #fff
+	&_name
+		font-size 18px
+	&_item
+		display block
+		cursor: pointer
+		margin-top: 8px
+		margin-bottom: 8px
+	&_item input
+		display none
+	&_category
+		display block
+		display none
+		cursor pointer
+		margin-top: 8px
+		margin-bottom: 8px
+
+.car_item_active
+	// color red
+	font-weight 700
+.card:hover
+	font-weight 500
+.card
+	margin-bottom: 20px
+	cursor pointer
+#card_big
+	font-size 20px
+	margin-left: 0
+	width 100%
+	.car_name
+		margin-bottom 8px
+		font-size 24px
+	.car_detal
+		margin-bottom 8px
+		font-size 22px
+	.car_price
+		font-size 22px
+		margin-bottom 8px
+@media (max-width: 1200px)
+	.big_descr
+		margin-bottom 20px
+@media (min-width: 1200px)
+	.img_big
+		margin-bottom 20px
+.img
+	width: 100%
+	height: 150px
+	background: rgba(20, 20,20 .5)
+	&_big
+		// width: 100% 
+		height: 300px
+		background: rgba(20, 20,20 .5) 
+
+.btn
+	padding 10px 18px
+	margin 10px 10px 0 0
+	// margin 10px 0 0 0
+	font-size 20px
+	cursor pointer
+	// background: rgba(200, 256,200 .3)
+	background inherit
+	border 2px solid grey
+	// border 0
+	// box-shadow rgba(0, 256, 0, 0.3) 0px 0px 10px 0px
+	&:hover
+		background grey
+		color #fff
+
+#phone
+	padding: 5px
+	font-size 18px
+	border 0
+	border-bottom  3px solid rgba(20, 20,20 .4)
+	background: rgba(250, 245,220 .2)
+	outline none
+
+.chat
+	position: fixed
+	left 100vw
+	top 100vh
+	height 40px
+	width 40px
+	// margin-right 20px
+	// margin-bottom 20px
+	border-radius 50%
+	transform: translate(-180%, -180%)
+	background: rgba(250, 245, 235 .8)
+	& svg
+		margin 6px
+
+#chat_wrap
+	display flex
+	display none
+	padding 5px
+	flex-direction column
+	width 220px
+	max-height 450px
+	bottom 0
+	right 0
+	background: rgba(250, 245, 240 .9)
+// #chat #chat_wrap
+// 	display flex
+
+
+#send_mess
+	padding: 5px
+	width 80%
+	font-size 18px
+	border 0
+	border-bottom 3px solid rgba(20, 20,20 .4)
+	background: rgba(250, 245,220 .2)
+	outline none
+
+#mess_text
+	display block
+	width 100%
+	font-size 18px
+	background transparent
+
+.you
+	margin 0 10% 5px 0
+	&:before
+		display block
+		content 'Вы'
+		width 100%
+		color #888888
+		font-size 12px
+
+.konsultant
+	margin 0 0 5px 10%
+	text-align right
+	&:before
+		display block
+		content 'Консультант'
+		width 100%
+		text-align right
+		color #888888
+		font-size 12px
+
+
+
+.send
+	height 33px
+	width 33px
+	padding 2px
+.send:hover
+	fill blue
+	cursor pointer
+
+
+
+
+
+
